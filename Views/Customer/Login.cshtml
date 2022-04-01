@@ -1,0 +1,55 @@
+﻿<link rel="stylesheet" href="~/Content/Login/css/style.css" />
+<link rel="stylesheet" href="~/Content/Login/css/font-awesome.css" />
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-36-mian section-gap">
+    <div class="wrapper">
+        <div class="form-inner-cont">
+            <h3>Đăng Nhập</h3>
+            <form action="/Customer/Login" method="post" class="signin-form">
+                @Html.ValidationSummary(true)
+                <div class="form-input">
+                    @ViewData["Error1"]
+                    <span class="fas fa-user" aria-hidden="true"></span> <input type="text" name="userName"
+                                                                                placeholder="Tên tài khoản" required />
+                </div>
+                <div class="form-input">
+                    @ViewData["Error2"]
+                    <span class="fas fa-key" aria-hidden="true"></span> <input type="password" name="password" placeholder="Password"
+                                                                               required />
+                </div>
+                <div class="login-remember d-grid">
+                    <label class="check-remaind">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        <p class="remember">Ghi nhớ đăng nhập</p>
+                    </label>
+                    <button class="btn theme-button">Đăng nhập</button>
+                </div>
+                <div class="new-signup">
+                    <a href="#reload" class="signuplink">Quên mật khẩu</a>
+                </div>
+            </form>
+            <div class="social-icons">
+                <p class="continue"><span>Hoặc</span></p>
+                <div class="social-login">
+                    <a href="#facebook">
+                        <div class="facebook">
+                            <span class="fab fa-facebook" aria-hidden="true"></span>
+
+                        </div>
+                    </a>
+                    <a href="#google">
+                        <div class="google">
+                            <span class="fab fa-google" aria-hidden="true"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <p class="signup">Chưa có tài khoản? <a href="#signup.html" class="signuplink">Đăng kí</a></p>
+        </div>
+    </div>
+</div>

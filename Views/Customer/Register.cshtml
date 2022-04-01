@@ -1,0 +1,62 @@
+﻿<!-- css files -->
+<link href="~/Content/Register/css/style.css" rel="stylesheet" type="text/css" media="all">
+<!-- //css files -->
+<!-- online-fonts -->
+<link href="//fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+<!--//online-fonts -->
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="w3-main">
+    <!-- Main -->
+    <div class="about-bottom main-agile book-form">
+        <div class="alert-close"> </div>
+        <h2 class="tittle">Đăng kí Tài khoản</h2>
+        <h3 style="color: red">
+            @ViewData["Message"]
+        </h3>
+        <form action="/Customer/Register" method="post">
+            @Html.ValidationSummary(true)
+            <div class="form-date-w3-agileits">
+                <label> Tên đăng nhập </label>
+                @ViewData["Error1"]
+                <input type="text" name="userName" placeholder="Tên đăng nhập" required="">
+                <label> Mật khẩu </label>
+                @ViewData["Error2"]
+                <input type="password" name="password" placeholder="Your Password" required="">
+                <label> Xác nhận mật khẩu</label>
+                @ViewData["Error3"]
+                <input type="password" name="confirmpass" placeholder="Confirm Password" required="">
+                <label> Họ và tên </label>
+                @ViewData["Error4"]
+                <input type="text" name="fullName" placeholder="Họ và tên" required="">
+                <label> Số điện thoại </label>
+                @ViewData["Error5"]
+                <input type="text" name="phone" placeholder="Số điện thoại" required="">
+                <label> Email </label>
+                @ViewData["Error6"]
+                <input type="email" name="email" placeholder="Đia chỉ Email" required="">
+            </div>
+            <div class="make wow shake">
+                <input type="submit" value="Đăng kí">
+            </div>
+        </form>
+    </div>
+    <!-- //Main -->
+</div>
+
+
+<!-- js-scripts-->
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="text/javascript" src="~/Content/js/jquery-2.1.4.min.js"></script>
+<script>
+    $(document).ready(function (c) {
+        $('.alert-close').on('click', function (c) {
+            $('.main-agile').fadeOut('slow', function (c) {
+                $('.main-agile').remove();
+            });
+        });
+    });
+</script>

@@ -1,0 +1,81 @@
+﻿@model IEnumerable<DBLShopASP.Models.Category>
+
+<div class="wrap-filter">
+    <div class="box_sidebar">
+        <div class="block left-module">
+            <div class=" filter_xs">
+                <div class="group-menu">
+                    <div class="title_block d-block d-sm-none d-none d-sm-block d-md-none" data-toggle="collapse"
+                         href="#collapseExample1" role="button" aria-expanded="false"
+                         aria-controls="collapseExample1">
+                        Danh mục sản phẩm
+                        <span>
+                            <i class="fa fa-angle-down" data-toggle="collapse"
+                               href="#collapseExample1" role="button" aria-expanded="false"
+                               aria-controls="collapseExample1"></i>
+                        </span>
+                    </div>
+                    <div class="block_content layered-category collapse" id="collapseExample1">
+                        <div class="layered-content card card-body" style="border:0;padding:0">
+                            <ul class="menuList-links">
+                                @foreach (var c in Model)
+                                {
+                                    <li class="">
+                                        <a href="@Url.Action("listProduct","Product", new { @id = @c.Id})" title="@c.Name"><i class="fa fa-chess-king"></i><span> @c.Name</span></a>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="layered">
+                    <p class="title_block d-block d-sm-none d-none d-sm-block d-md-none" data-toggle="collapse"
+                       href="#collapseExample2" role="button" aria-expanded="false"
+                       aria-controls="collapseExample2">
+                        Bộ lọc sản phẩm
+                        <span>
+                            <i class="fa fa-angle-down" data-toggle="collapse"
+                               href="#collapseExample2" role="button" aria-expanded="false"
+                               aria-controls="collapseExample2"></i>
+                        </span>
+                    </p>
+                    <div class="block_content collapse" id="collapseExample2">
+                        <div class="group-filter" aria-expanded="true">
+                            <div class="layered_subtitle dropdown-filter">
+                                <span>Giá sản phẩm</span><span class="icon-control"><i class="fa fa-minus"></i></span>
+                            </div>
+                            <div class="layered-content bl-filter filter-price">
+                                <ul class="check-box-list">
+                                    <li>
+                                        <a href="@Url.Action("PriceStudent","Search")"><span>Dưới</span> 1,500,000₫</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("PriceSmall","Search")"><span>Từ</span> 1,500,0000₫ - 3,500,000₫</a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("PriceMedium","Search")"><span>Từ</span> 3,500,000₫ - 5,500,000₫ </a>
+                                    </li>
+                                    <li>
+                                        <a href="@Url.Action("PriceHigh","Search")"><span>Trên</span> 5,500,000₫</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .check-box-list a {
+        color: #272727;
+        text-decoration: none;
+    }
+</style>

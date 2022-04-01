@@ -1,0 +1,35 @@
+﻿@model IEnumerable<DBLShopASP.Models.Category>
+
+@{
+    ViewBag.Title = "Refresh";
+    Layout = "~/Areas/admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p>
+    @Html.ActionLink("Thêm mới", "Create")
+    <span><i class="fa fa-address-book"></i></span>
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            DANH MỤC
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Xóa", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+

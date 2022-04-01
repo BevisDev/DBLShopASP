@@ -1,0 +1,33 @@
+﻿@model DBLShopASP.Models.Category
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<h3>Bạn có muốn xóa?</h3>
+<div>
+    <h4>Xóa danh mục</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+           Tên danh mục
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Trở về danh sách", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,113 @@
+﻿@model DBLShopASP.Models.Product
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h4>Sửa sản phẩm</h4>
+<hr />
+
+
+@using (Html.BeginForm("Edit", "ProductA", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+{
+
+    @Html.AntiForgeryToken()
+
+    <div class="row" style="flex-wrap: nowrap;">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="col-md-6">
+            @Html.Label("Tên sản phẩm", htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            @Html.Label("Giá tiền", htmlAttributes: new { @class = "control-label col-md-3" })
+            <div class="col-md-9">
+                @Html.EditorFor(model => model.Unit_Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Unit_Price, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            @Html.Label("Size", htmlAttributes: new { @class = "control-label col-md-3" })
+            <div class="col-md-9">
+                @Html.EditorFor(model => model.Size, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Size, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="spacing"></div>
+    <div class="row" style="flex-wrap: nowrap;">
+        <div class="col-md-4">
+            @Html.Label("Số lượng", htmlAttributes: new { @class = "control-label col-md-6" })
+            <div class="col-md-6">
+                @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-4">
+            @Html.Label("Ngày nhập hàng", htmlAttributes: new { @class = "control-label col-md-6" })
+            <div class="col-md-6">
+                <input type="date" name="Product_Date" />
+                @Html.ValidationMessageFor(model => model.Product_Date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-4">
+            @Html.Label("Danh mục", htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                @Html.DropDownList("Category_Id", "Loại sản phẩm")
+                @Html.ValidationMessageFor(model => model.Category_Id, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+
+    <div class="spacing"></div>
+    <div class="row" style="flex-wrap: nowrap;">
+        <div class="col-md-6">
+            @Html.Label("Mô tả sản phẩm", htmlAttributes: new { @class = "control-label col-md-6" })
+            <div class="col-md-6">
+                <textarea name="Description" placeholder="Mô tả" class="text-des"></textarea>
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-md-6">
+            @Html.Label("Hình Ảnh", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input type="file" name="Image" />
+                @ViewBag.load
+                @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </div>
+    <div class="spacing"></div>
+
+
+
+
+
+    <div class="col-md-offset-4 col-md-10">
+        <input type="submit" value="Save" class="btn btn-success" />
+    </div>
+        
+    <div class="spacing"></div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<style>
+
+    .spacing {
+        margin-bottom: 30px;
+    }
+
+    .text-des {
+        height: 200px;
+        width: 500px;
+    }
+</style>

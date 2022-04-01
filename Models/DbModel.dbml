@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DBLShopASP" Class="DbModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\bevistruong;Initial Catalog=DBLShopASP;Persist Security Info=True;User ID=admin" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DBLShopASPConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Category" Member="Categories">
+    <Type Name="Category">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Category_Product" Member="Products" ThisKey="Id" OtherKey="Category_Id" Type="Product" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Customer" Member="Customers">
+    <Type Name="Customer">
+      <Column Name="User_Name" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Full_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Admin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Customer_Order" Member="Orders" ThisKey="User_Name" OtherKey="Customer_Id" Type="Order" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Order]" Member="Orders">
+    <Type Name="Order">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Customer_Id" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Order_Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Ship_Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="Checkout" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Finished_Ship" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Order_Order_Detail" Member="Order_Details" ThisKey="Id" OtherKey="Order_Id" Type="Order_Detail" />
+      <Association Name="Customer_Order" Member="Customer" ThisKey="Customer_Id" OtherKey="User_Name" Type="Customer" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Order_Detail" Member="Order_Details">
+    <Type Name="Order_Detail">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Order_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Product_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Unit_Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Order_Order_Detail" Member="Order" ThisKey="Order_Id" OtherKey="Id" Type="Order" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Product_Order_Detail" Member="Product" ThisKey="Product_Id" OtherKey="Id" Type="Product" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="Products">
+    <Type Name="Product">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Unit_Price" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Size" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Product_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Category_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Product_Order_Detail" Member="Order_Details" ThisKey="Id" OtherKey="Product_Id" Type="Order_Detail" />
+      <Association Name="Category_Product" Member="Category" ThisKey="Category_Id" OtherKey="Id" Type="Category" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>

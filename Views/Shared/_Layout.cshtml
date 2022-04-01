@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="~/Content/plugins/bootstrap/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css">
+
+    <link rel="stylesheet" href="~/Content/plugins/animate/animate.min.css">
+
+    <link rel="stylesheet" href="~/Content/plugins/fontawesome/all.css">
+
+    <link href="~/Content/plugins/webfonts/font.css"
+          rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/owl.theme.default.min.css" type="text/css">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="~/Content/plugins/uikit/uikit.min.css" />
+    <link rel="stylesheet" href="~/Content/PagedList.css" />
+   
+    <title>DBL Shop</title>
+
+</head>
+
+<body>
+    <div class="header">
+        @Html.Partial("~/Views/layout/_header.cshtml")
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+
+        @Html.Partial("~/Views/layout/_nav_header.cshtml")
+
+
+    </nav>
+    <!--Banner-->
+    @RenderSection("Banner", required: false)
+
+    <!--List Prodct-->
+    
+        @RenderBody()
+   
+    <!--Footer-->
+    @Html.Partial("~/Views/layout/_footer.cshtml")
+
+
+    <!--Home-->
+    <script src="~/Content/js/home.js"></script>
+    <script src="~/Content/js/script.js"></script>
+
+    <script async defer crossorigin="anonymous" src="~/Content/plugins/sdk.js"></script>
+    <script src="~/Content/plugins/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="~/Content/plugins/bootstrap/popper.min.js"></script>
+    <script src="~/Content/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Content/plugins/owl.carousel/owl.carousel.min.js"></script>
+    <script src="~/Content/plugins/uikit/uikit.min.js"></script>
+    <script src="~/Content/plugins/uikit/uikit-icons.min.js"></script>
+    <script src="~/Content/js/sign.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+
+</html>
+<noembed>

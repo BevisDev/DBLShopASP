@@ -1,0 +1,250 @@
+D:\workspace-c#\DBLShopASP\obj\Debug\DBLShopASP.csproj.AssemblyReference.cache
+D:\workspace-c#\DBLShopASP\obj\Debug\DBLShopASP.csproj.CoreCompileInputs.cache
+D:\workspace-c#\DBLShopASP\bin\DBLShopASP.dll.config
+D:\workspace-c#\DBLShopASP\bin\DBLShopASP.dll
+D:\workspace-c#\DBLShopASP\bin\DBLShopASP.pdb
+D:\workspace-c#\DBLShopASP\bin\roslyn\csc.exe
+D:\workspace-c#\DBLShopASP\bin\roslyn\csc.exe.config
+D:\workspace-c#\DBLShopASP\bin\roslyn\csc.rsp
+D:\workspace-c#\DBLShopASP\bin\roslyn\csi.exe
+D:\workspace-c#\DBLShopASP\bin\roslyn\csi.exe.config
+D:\workspace-c#\DBLShopASP\bin\roslyn\csi.rsp
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.Managed.Core.targets
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\workspace-c#\DBLShopASP\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.AppContext.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Collections.Immutable.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Console.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Globalization.Calendars.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.IO.Compression.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.IO.FileSystem.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Net.Http.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Net.Sockets.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Reflection.Metadata.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.ValueTuple.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Xml.XmlDocument.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Xml.XPath.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\workspace-c#\DBLShopASP\bin\roslyn\vbc.exe
+D:\workspace-c#\DBLShopASP\bin\roslyn\vbc.exe.config
+D:\workspace-c#\DBLShopASP\bin\roslyn\vbc.rsp
+D:\workspace-c#\DBLShopASP\bin\roslyn\VBCSCompiler.exe
+D:\workspace-c#\DBLShopASP\bin\roslyn\VBCSCompiler.exe.config
+D:\workspace-c#\DBLShopASP\bin\Antlr3.Runtime.dll
+D:\workspace-c#\DBLShopASP\bin\EntityFramework.dll
+D:\workspace-c#\DBLShopASP\bin\EntityFramework.SqlServer.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.AspNet.Identity.Core.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Cookies.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Facebook.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Google.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.OAuth.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Twitter.dll
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Web.Infrastructure.dll
+D:\workspace-c#\DBLShopASP\bin\Newtonsoft.Json.dll
+D:\workspace-c#\DBLShopASP\bin\Owin.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.Helpers.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.Mvc.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.Optimization.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.Razor.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.WebPages.Deployment.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.WebPages.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.WebPages.Razor.dll
+D:\workspace-c#\DBLShopASP\bin\WebGrease.dll
+D:\workspace-c#\DBLShopASP\bin\System.Web.Helpers.xml
+D:\workspace-c#\DBLShopASP\bin\System.Web.Mvc.xml
+D:\workspace-c#\DBLShopASP\bin\System.Web.Optimization.xml
+D:\workspace-c#\DBLShopASP\bin\System.Web.Razor.xml
+D:\workspace-c#\DBLShopASP\bin\System.Web.WebPages.xml
+D:\workspace-c#\DBLShopASP\bin\System.Web.WebPages.Deployment.xml
+D:\workspace-c#\DBLShopASP\bin\System.Web.WebPages.Razor.xml
+D:\workspace-c#\DBLShopASP\bin\Newtonsoft.Json.xml
+D:\workspace-c#\DBLShopASP\bin\Antlr3.Runtime.pdb
+D:\workspace-c#\DBLShopASP\bin\EntityFramework.xml
+D:\workspace-c#\DBLShopASP\bin\EntityFramework.SqlServer.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.AspNet.Identity.Core.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Facebook.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Cookies.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Google.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.Twitter.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.Owin.Security.OAuth.xml
+D:\workspace-c#\DBLShopASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\workspace-c#\DBLShopASP\obj\Debug\DBLShopASP.csproj.CopyComplete
+D:\workspace-c#\DBLShopASP\obj\Debug\DBLShopASP.dll
+D:\workspace-c#\DBLShopASP\obj\Debug\DBLShopASP.pdb
+D:\workspace-c#\DBLShopASP\bin\PagedList.dll
+D:\workspace-c#\DBLShopASP\bin\PagedList.Mvc.dll
+D:\workspace-c#\DBLShopASP\bin\PagedList.xml
+D:\workspace-c#\DBLShopASP\bin\PagedList.Mvc.xml
+D:\workspace-c#\DBLShopASP\bin\Facebook.dll
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Auth.dll
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Auth.PlatformServices.dll
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Core.dll
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.dll
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.PlatformServices.dll
+D:\workspace-c#\DBLShopASP\bin\Facebook.xml
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.pdb
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.xml
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Auth.pdb
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Auth.xml
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Core.pdb
+D:\workspace-c#\DBLShopASP\bin\Google.Apis.Core.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\DBLShopASP.dll.config
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\DBLShopASP.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\DBLShopASP.pdb
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\csc.exe
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\csc.exe.config
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\csc.rsp
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\csi.exe
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\csi.exe.config
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\csi.rsp
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.AppContext.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Console.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.IO.Compression.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Net.Http.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.ValueTuple.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\vbc.exe
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\vbc.exe.config
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\vbc.rsp
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\VBCSCompiler.exe
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Antlr3.Runtime.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\EntityFramework.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\EntityFramework.SqlServer.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Facebook.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Auth.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Core.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.PlatformServices.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Newtonsoft.Json.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Owin.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\PagedList.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\PagedList.Mvc.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Helpers.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Mvc.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Optimization.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Razor.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.WebPages.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.WebPages.Razor.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\WebGrease.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Facebook.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.pdb
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Auth.pdb
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Auth.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Core.pdb
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Google.Apis.Core.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Newtonsoft.Json.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\PagedList.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\PagedList.Mvc.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Helpers.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Mvc.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Optimization.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.Razor.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.WebPages.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\System.Web.WebPages.Razor.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Antlr3.Runtime.pdb
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\EntityFramework.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\EntityFramework.SqlServer.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\obj\Debug\DBLShopASP.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\obj\Debug\DBLShopASP.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\obj\Debug\DBLShopASP.csproj.CopyComplete
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\obj\Debug\DBLShopASP.dll
+C:\Users\ASUS\Downloads\Do An ASP\DBLShopASP\obj\Debug\DBLShopASP.pdb

@@ -1,0 +1,123 @@
+﻿@using DBLShopASP.Models
+@model List<cart>
+@{
+    ViewBag.Title = "Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2 style="text-align:center">Thông tin giỏ hàng</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Hình Ảnh
+            </th>
+            <th>
+                Tên sản phẩm
+            </th>
+            <th>
+                Đơn giá
+            </th>
+            <th>
+                Số lượng
+            </th>
+            <th>
+                Tổng Tiền
+            </th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr style="font-weight:bold">
+                <td>
+                    <a href="@Url.Action("Details","Product", new { id = @item.id })">
+                        <img src="~/Content/images/shoes/@item.image" class="cart__image" />
+                    </a>
+                </td>
+                <td>
+                    <a href="@Url.Action("Details","Product", new { id = @item.id })">
+                        @item.name
+                    </a>
+                </td>
+                <td>
+                    @string.Format("{0:0,0}", item.unit_Price) đ
+                </td>
+                @using (Html.BeginForm("Update", "Cart", new { @id = item.id }))
+                {
+                    <td>
+                        <input type="number" min="1" name="quantity" class="input-quantity" value="@item.quantity" />
+                    </td>
+                    <td>
+                        @string.Format("{0:0,0}", item.amount) đ
+                    </td>
+                    <td> @Html.ActionLink("Xoá", "Delete", new { @Id = item.id }) | <input type="submit" value="Cập Nhật" class="input-update" /></td>
+                }
+            </tr>
+        }
+        <tr>
+            <td colspan="3"></td>
+            <td colspan="1">Tổng số lượng @ViewBag.Quantity</td>
+            <td colspan="2">Tổng tiền @String.Format("{0:0,0}", @ViewBag.Amount) đ</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="5"></td>
+            <td colspan="1" class="order">
+                @Html.ActionLink("ĐẶT HÀNG", "order", "cart")
+            </td>
+        </tr>
+    </tfoot>
+
+
+</table>
+
+
+
+
+<style>
+    .cart__image {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+
+    table th,
+    table td {
+        font-weight: 700;
+        color: #0c0d0e;
+        font-size: 18px;
+        white-space: normal;
+    }
+
+
+    .input-quantity {
+        border: none;
+        width: 120px;
+        padding-left: 20px;
+        font-weight: 600;
+    }
+
+    table tbody td:last-child a {
+        color: #ce283c;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .input-update {
+        border: none;
+        color: #24b972;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 6px;
+        width: 100%;
+        max-width: 100px;
+        height: 40px;
+        box-shadow: 0 0 2px 0 #000;
+    }
+</style>
+

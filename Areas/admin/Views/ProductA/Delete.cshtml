@@ -1,0 +1,78 @@
+﻿@model DBLShopASP.Models.Product
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<h3>Bạn thật sự có muốn xóa?</h3>
+<div>
+    <h4>Xóa Sản phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Tên sản phẩm
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+           Tên hình ảnh
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image)
+        </dd>
+
+        <dt>
+           Đơn Giá
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unit_Price)
+        </dd>
+        <dt>
+           Size
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+        <dt>
+            Số lượng
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Quantity)
+        </dd>
+
+        <dt>
+           Ngày cập nhật
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product_Date)
+        </dd>
+
+        <dt>
+            Mô Tả
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Quay trở lại danh sách", "Index")
+        </div>
+    }
+</div>

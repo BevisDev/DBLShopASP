@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBLShopASP", "DBLShopASP.csproj", "{67E3C730-951F-49CA-8DEA-F5D0239D89EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67E3C730-951F-49CA-8DEA-F5D0239D89EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E3C730-951F-49CA-8DEA-F5D0239D89EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E3C730-951F-49CA-8DEA-F5D0239D89EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E3C730-951F-49CA-8DEA-F5D0239D89EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E63211C2-A85E-465F-96E5-7D3B317DF626}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,201 @@
+﻿@using DBLShopASP.Models
+@model List<cart>
+
+@{
+    ViewBag.Title = "Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2 style="text-align:center">ĐƠN ĐẶT HÀNG</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Hình Ảnh
+            </th>
+            <th>
+                Tên sản phẩm
+            </th>
+            <th>
+                Đơn giá
+            </th>
+            <th>
+                Số lượng
+            </th>
+            <th>
+                Tổng Tiền
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr style="font-weight:bold">
+                <td>
+                    <img src="~/Content/images/shoes/@item.image" class="cart__image" />
+                </td>
+                <td>
+                    @item.name
+                </td>
+                <td>
+                    @string.Format("{0:0,0}", item.unit_Price) đ
+                </td>
+                    <td>
+                      @item.quantity
+                    </td>
+                    <td>
+                        @string.Format("{0:0,0}", item.amount) đ
+                    </td>
+                    
+            </tr>
+        }
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="1">Tổng số lượng @ViewBag.Quantity</td>
+            <td colspan="2">Tổng tiền @String.Format("{0:0,0}", @ViewBag.Amount) đ</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="4"></td>
+            <td colspan="1" class="order">
+                @Html.ActionLink("TRỞ VỀ GIỎ HÀNG", "Cart", "Cart")
+            </td>
+        </tr>
+    </tfoot>
+
+
+</table>
+
+<h2 style="text-align:center">THÔNG TIN ĐẶT HÀNG</h2>
+@{ 
+    Customer cus = (Customer)Session["user"];
+}
+<table class="table">
+    @using (Html.BeginForm("Order", "Cart"))
+    {
+        @Html.ValidationSummary(true)
+        <tr>
+            <td>Họ tên Khách hàng</td>
+            <td>@cus.Full_Name</td>
+        </tr>
+        <tr>
+            <td>Đia chỉ</td>
+            <td>
+                <input type="text" name="address" class="order-ship" />
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td>
+                @cus.Phone
+            </td>
+        </tr>
+        <tr>
+            <td>Ngày đặt</td>
+            <td>@DateTime.Now.ToShortDateString()</td>
+        </tr>
+
+        <tr>
+            <td>Ngày giao</td>
+            <td>
+                <input type="date" name="shipDate" class="date-ship" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Đồng ý" class="order-agree" />
+            </td>
+        </tr>
+
+    }
+</table>
+
+<style>
+    .date-ship {
+        outline: none;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        height: 40px;
+        padding: 0 15px;
+        border-radius: 8px;
+        display: block;
+        transition: all 0.25s ease;
+    }
+        .date-ship:focus {
+            background-color: white;
+            border-color: #6f5cf1;
+            box-shadow: 0 0 0 2px #7561f631;
+        }
+    .order-ship {
+        outline:none;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        height: 40px;
+        padding: 0 15px;
+        border-radius: 8px;
+        display: block;
+        width: 80%;
+        transition: all 0.25s ease;
+    }
+
+    .order-ship:focus {
+        background-color: white;
+        border-color: #6f5cf1;
+        box-shadow: 0 0 0 2px #7561f631;
+    }
+        .order-agree {
+        width: 150px;
+        height: 50px;
+        background-color: #4267b2;
+        outline: none;
+        border: 0;
+        border-radius: 15px;
+        box-shadow: 0 0 2px 2px #a3a4a5;
+    }
+    .cart__image {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+    }
+
+    table th,
+    table td {
+        font-weight: 700;
+        color: #0c0d0e;
+        font-size: 18px;
+        white-space: normal;
+    }
+
+
+    .input-quantity {
+        border: none;
+        width: 120px;
+        padding-left: 20px;
+        font-weight: 600;
+    }
+
+    table tbody td:last-child a {
+        color: #ce283c;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .input-update {
+        border: none;
+        color: #24b972;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 6px;
+        width: 100%;
+        max-width: 100px;
+        height: 40px;
+        box-shadow: 0 0 2px 0 #000;
+    }
+</style>
+
